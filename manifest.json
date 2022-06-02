@@ -1,0 +1,27 @@
+{
+  "name": "__MSG_appName__",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "__MSG_appDescription__",
+  "icons": {
+    "16": "images/icons8-stitch-character-color-16.png",
+    "120": "images/icons8-stitch-character-color-120.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "permissions": [
+    "background"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icons8-stitch-character-color-16.png",
+      "32": "images/icons8-stitch-character-color-32.png"
+    },
+    "default_title": "Count Down"
+  }
+}
